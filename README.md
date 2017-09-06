@@ -7,7 +7,8 @@ Any changes made will be saved. If any errors do occur, it will be rolled back t
 
 ## What servers are currently being hosted?
 
-- Unturned
+- Garry's Mod (to be added)
+- Minecraft (to be added)
 - Starbound
-- Minecraft
 - Terraria
+- Unturned
