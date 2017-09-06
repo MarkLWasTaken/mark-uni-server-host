@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MessageAnnouncerConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Interval>420</Interval>
+  <Messages>
+    <Message Text="Welcome to Mark's Unturned Pure PvP Server, we hope you enjoy your stay!" Color="Yellow" />
+    <Message Text="Welcome to Mark's Unturned Pure PvP Server, we hope you enjoy your stay!" Color="Yellow" />
+    <Message Text="You're now playing on Pure PvP server. Beware of your surroundings." Color="Yellow" />
+    <Message Text="Please chat in English or any other Asian language. Also, be polite." Color="Yellow" />
+    <Message Text="This server will shutdown everyday @ 10:00 PM. Be sure to stay away from the zombies." Color="Yellow" />
+    <Message Text="Visit our Steam Group at steamcommunity.com/groups/markleong1997unturned" Color="Yellow" />
+    <Message Text="If you have any questions, ask anyone on our Steam Group." Color="Yellow" />
+  </Messages>
+  <TextCommands>
+    <TextCommand>
+      <Name>rules</Name>
+      <Help>Shows the server rules</Help>
+      <Text>
+        <Line>#1 No offensive content in the chat, respect other players</Line>
+        <Line>#2 No bug using, exploiting or abuse of powers</Line>
+        <Line>#3 Don't ask admins for items, teleports, loot respawn, ect.</Line>
+        <Line>#4 Please speak english in the public chat</Line>
+      </Text>
+    </TextCommand>
+    <TextCommand>
+      <Name>kit</Name>
+      <Help>Check the status if "kit" is currently available in the server.</Help>
+      <Text>
+        <Line>Oops, sorry! Kit command is disabled in this server.</Line>
+      </Text>
+    </TextCommand>
+  </TextCommands>
+</MessageAnnouncerConfiguration>

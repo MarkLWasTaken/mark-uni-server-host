@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Translations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Translation Id="kick_reason" Value="VACKicker has kicked" />
+  <Translation Id="vacStatus_true" Value="{0} ({1}) : kicked" />
+  <Translation Id="vacStatus_false" Value="{0} ({1}) : No VAC record" />
+  <Translation Id="vacStatus_null" Value="VACKicker &gt;&gt; {0} ({1}) : Null" />
+  <Translation Id="error_reason" Value="Oops!... VACKicker ERROR!!" />
+</Translations>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeexAFKConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Seconds>180</Seconds>
+  <CheckInterval>1000</CheckInterval>
+  <MessageEnabled>true</MessageEnabled>
+  <KickEnabled>false</KickEnabled>
+  <KickMinPlayers>0</KickMinPlayers>
+  <IgnoreAdmins>true</IgnoreAdmins>
+</FeexAFKConfiguration>

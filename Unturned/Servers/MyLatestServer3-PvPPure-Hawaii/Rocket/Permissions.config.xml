@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RocketPermissions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DefaultGroup>default</DefaultGroup>
+  <Groups>
+    <Group>
+      <Id>default</Id>
+      <DisplayName>Guest</DisplayName>
+      <Prefix />
+      <Suffix />
+      <Color />
+      <Members />
+      <Priority>100</Priority>
+      <Permissions>
+        <Permission Cooldown="0">p</Permission>
+        <Permission Cooldown="0">compass</Permission>
+        <Permission Cooldown="0">rocket</Permission>
+        <Permission Cooldown="0">dm</Permission>
+        <Permission Cooldown="0">jlm.group</Permission>
+        <Permission Cooldown="0">motd.Default</Permission>
+        <Permission Cooldown="0">r</Permission>
+        <Permission Cooldown="0">stats</Permission>
+        <Permission Cooldown="0">tps</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>vip</Id>
+      <DisplayName>VIP</DisplayName>
+      <Prefix />
+      <Suffix />
+      <Color>FF9900</Color>
+      <Members>
+        <Member>76561198016438091</Member>
+      </Members>
+      <ParentGroup>default</ParentGroup>
+      <Priority>100</Priority>
+      <Permissions>
+        <Permission Cooldown="0">effect</Permission>
+        <Permission Cooldown="120">heal</Permission>
+        <Permission Cooldown="30">v</Permission>
+        <Permission Cooldown="0">motd.Vip</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>MarkAdmin</Id>
+      <DisplayName>MarkAdmin</DisplayName>
+      <Prefix />
+      <Suffix />
+      <Color />
+      <Members>
+        <Member>76561197993652533</Member>
+        <Member>76561198110999690</Member>
+      </Members>
+      <ParentGroup>default</ParentGroup>
+      <Priority>100</Priority>
+      <Permissions>
+        <Permission Cooldown="0">ban</Permission>
+        <Permission Cooldown="0">kick</Permission>
+        <Permission Cooldown="0">spy</Permission>
+        <Permission Cooldown="0">unban</Permission>
+        <Permission Cooldown="0">abuse.isgod</Permission>
+        <Permission Cooldown="0">abuse.isvanish</Permission>
+        <Permission Cooldown="0">afk.check</Permission>
+        <Permission Cooldown="0">afk.checkall</Permission>
+        <Permission Cooldown="0">afk.set</Permission>
+        <Permission Cooldown="0">limittps</Permission>
+        <Permission Cooldown="0">ltps</Permission>
+        <Permission Cooldown="0">motd.FoM</Permission>
+        <Permission Cooldown="0">report</Permission>
+        <Permission Cooldown="0">spamspy</Permission>
+        <Permission Cooldown="0">spyall</Permission>
+        <Permission Cooldown="0">stats.admin</Permission>
+      </Permissions>
+    </Group>
+  </Groups>
+</RocketPermissions>
