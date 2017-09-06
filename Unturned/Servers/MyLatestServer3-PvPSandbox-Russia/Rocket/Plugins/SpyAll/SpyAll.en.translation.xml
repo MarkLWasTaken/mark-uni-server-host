@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Translations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Translation Id="finish_spamspy" Value="Finished taking {0} screenshots of {1}" />
+  <Translation Id="start_spamspy" Value="starting taking screenshots..." />
+  <Translation Id="under_minimum_delay" Value="{0} is under the minimum delay between screenshots!" />
+  <Translation Id="player_not_found" Value="A player by the name of '{0}' could not be found!" />
+  <Translation Id="invalid_amount" Value="Invalid value for amount of screenshots, enter a valid amount!" />
+  <Translation Id="invalid_delay" Value="Invalid value for delay, enter a valid delay!" />
+  <Translation Id="wrong_usage" Value="Invalid command usage, correct usage: {0}" />
+  <Translation Id="stopped_spies" Value="Stopped {0} spamspies!" />
+</Translations>

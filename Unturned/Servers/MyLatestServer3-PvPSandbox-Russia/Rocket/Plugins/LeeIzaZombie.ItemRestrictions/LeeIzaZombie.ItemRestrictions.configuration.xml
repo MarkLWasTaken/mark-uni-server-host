@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemRestrictionsConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Items>
+    <Item>519</Item>
+    <Item>520</Item>
+    <Item>1240</Item>
+    <Item>1241</Item>
+    <Item>1300</Item>
+    <Item>1393</Item>
+    <Item>1441</Item>
+    <Item>6034</Item>
+    <Item>6052</Item>
+    <Item>6057</Item>
+    <Item>6061</Item>
+    <Item>6063</Item>
+    <Item>6068</Item>
+    <Item>6332</Item>
+    <Item>12400</Item>
+    <Item>12401</Item>
+    <Item>12402</Item>
+    <Item>12403</Item>
+  </Items>
+  <ignoreAdmin>true</ignoreAdmin>
+  <CheckInterval>1</CheckInterval>
+</ItemRestrictionsConfiguration>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UconomyConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DatabaseAddress>localhost</DatabaseAddress>
+  <DatabaseUsername>markleong1997</DatabaseUsername>
+  <DatabasePassword>nicksbabe143</DatabasePassword>
+  <DatabaseName>MySQL</DatabaseName>
+  <DatabaseTableName>uconomy</DatabaseTableName>
+  <DatabasePort>3306</DatabasePort>
+  <InitialBalance>30</InitialBalance>
+  <MoneyName>MDollar</MoneyName>
+</UconomyConfiguration>

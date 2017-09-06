@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WarpsConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UconomyEnable>false</UconomyEnable>
+  <WarpCargeEnable>false</WarpCargeEnable>
+  <WarpCost>100.00</WarpCost>
+  <WarpOtherChargeEnable>false</WarpOtherChargeEnable>
+  <WarpOtherCost>200.00</WarpOtherCost>
+  <SetWarpChargeEnable>false</SetWarpChargeEnable>
+  <SetWarpCost>200.00</SetWarpCost>
+  <DelWarpChargeEnable>false</DelWarpChargeEnable>
+  <DelWarpCost>200.00</DelWarpCost>
+  <EnableWaitGroups>false</EnableWaitGroups>
+  <EnableMovementRestriction>false</EnableMovementRestriction>
+  <WaitGroups>
+    <Group GroupName="default" WaitTime="10" />
+    <Group GroupName="admin" WaitTime="5" />
+    <Group GroupName="all" WaitTime="10" />
+  </WaitGroups>
+  <Warps>
+    <Warp Name="oilrig" SetterCharName="SAS Unit #3201" SetterSteamName="[iK1TCH] iBlender" SetterCSteamID="76561197993652533" World="russia" Rotation="19.046381" Location="(-1748.1, 107.4, -1745.2)" />
+    <Warp Name="liberatorshootpoint" SetterCharName="SAS Unit #3201" SetterSteamName="[iK1TCH] iBlender" SetterCSteamID="76561197993652533" World="russia" Rotation="129.6595" Location="(110.1, 41.8, -1720.6)" />
+    <Warp Name="adminbase" SetterCharName="SAS Unit #3201" SetterSteamName="[iK1TCH] iBlender" SetterCSteamID="76561197993652533" World="russia" Rotation="26.7400379" Location="(1342.5, 83.9, -516.5)" />
+  </Warps>
+</WarpsConfig>

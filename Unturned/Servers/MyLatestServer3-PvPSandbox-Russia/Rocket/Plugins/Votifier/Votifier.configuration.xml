@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VotifierConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Services>
+    <Service name="unturned-servers.net" apikey="7fag0ewgrlcjfln4gtk23h5r06ovs4jy4za" />
+    <Service name="unturnedsl.com" apikey="11872" />
+    <Service name="obs.erve.me" apikey="" />
+  </Services>
+  <EnableRewardBundles>false</EnableRewardBundles>
+  <RewardBundles>
+    <RewardBundle>
+      <Probability>1</Probability>
+      <Name>Thank You!</Name>
+      <Rewards>
+        <Reward itemid="70" amount="1" />
+      </Rewards>
+    </RewardBundle>
+  </RewardBundles>
+  <ServiceDefinitions>
+    <ServiceDefinition name="unturned-servers.net">
+      <CheckHasVoted>https://unturned-servers.net/api/?object=votes&amp;element=claim&amp;key={0}&amp;steamid={1}</CheckHasVoted>
+      <ReportSuccess>https://unturned-servers.net/api/?action=post&amp;object=votes&amp;element=claim&amp;key={0}&amp;steamid={1}</ReportSuccess>
+    </ServiceDefinition>
+    <ServiceDefinition name="unturnedsl.com">
+      <CheckHasVoted>http://unturnedsl.com/api/dedicated/{0}/{1}</CheckHasVoted>
+      <ReportSuccess>http://unturnedsl.com/api/dedicated/post/{0}/{1}</ReportSuccess>
+    </ServiceDefinition>
+    <ServiceDefinition name="obs.erve.me">
+      <CheckHasVoted>http://api.observatory.rocketmod.net/?server={0}&amp;steamid={1}</CheckHasVoted>
+      <ReportSuccess>http://api.observatory.rocketmod.net/?server={0}&amp;steamid={1}&amp;claim</ReportSuccess>
+    </ServiceDefinition>
+  </ServiceDefinitions>
+</VotifierConfiguration>

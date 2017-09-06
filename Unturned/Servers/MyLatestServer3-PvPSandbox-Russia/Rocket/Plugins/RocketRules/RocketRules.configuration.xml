@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RocketRulesConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DisplayOnConnect>false</DisplayOnConnect>
+  <Rules>
+    <Rule>
+      <configText>#1: No spawn killing of other players in PvP, unless attacked by the spawned player.</configText>
+      <configColor>
+        <r>1</r>
+        <g>0.921568632</g>
+        <b>0.0156862754</b>
+        <a>1</a>
+      </configColor>
+    </Rule>
+    <Rule>
+      <configText>#2: No KoS of fresh players, unless in self defense.</configText>
+      <configColor>
+        <r>0</r>
+        <g>1</g>
+        <b>0</b>
+        <a>1</a>
+      </configColor>
+    </Rule>
+    <Rule>
+      <configText>#3: No Hacks or Cheating, you will get a permanent ban.</configText>
+      <configColor>
+        <r>1</r>
+        <g>0</g>
+        <b>0</b>
+        <a>1</a>
+      </configColor>
+    </Rule>
+    <Rule>
+      <configText>#4: Insulting will get you a ban.</configText>
+      <configColor>
+        <r>0</r>
+        <g>0</g>
+        <b>1</b>
+        <a>1</a>
+      </configColor>
+    </Rule>
+    <Rule>
+      <configText>#5: Respect the players and the admins.</configText>
+      <configColor>
+        <r>0</r>
+        <g>0</g>
+        <b>1</b>
+        <a>1</a>
+      </configColor>
+    </Rule>
+    <Rule>
+      <configText>#6: We respect everyone's privacy at all times.</configText>
+      <configColor>
+        <r>0</r>
+        <g>0</g>
+        <b>1</b>
+        <a>1</a>
+      </configColor>
+    </Rule>
+  </Rules>
+</RocketRulesConfiguration>
