@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MOTDConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ShowWarnings>true</ShowWarnings>
+  <Groups>
+    <Group>
+      <Name>Default</Name>
+      <Messages>
+        <Message Text="Welcome to %servername%, %playername%!" Color="#00CDFF" />
+        <Message Text="You are now playing on %map% with %mode% Mode in Vanilla %pvp/pve%." Color="#00CDFF" />
+        <Message Text="Press J, K, L for World, Area, Group Chat." Color="#00CDFF" />
+        <Message Text="We hope you enjoy your stay, and have fun!" Color="#00CDFF" />
+        <Message Text="This server is free from Kits, Airdrops, TPA, Home, and etc..." Color="#00CDFF" />
+      </Messages>
+    </Group>
+    <Group>
+      <Name>MMember</Name>
+      <Messages>
+        <Message Text="Welcome back to %servername%, %playername%!" Color="#00CDFF" />
+        <Message Text="There are currently %online% players online." Color="#00CDFF" />
+        <Message Text="We hope you enjoy your stay, and have fun!" Color="#00CDFF" />
+        <Message Text="Server uptime: %uptime%" Color="yellow" />
+      </Messages>
+    </Group>
+    <Group>
+      <Name>Vip</Name>
+      <Messages>
+        <Message Text="Welcome back, %playername%!" Color="yellow" />
+        <Message Text="There are %online% players online." Color="yellow" />
+        <Message Text="We are glad that you choose this server." Color="yellow" />
+        <Message Text="Call some friends and play together!" Color="yellow" />
+      </Messages>
+    </Group>
+    <Group>
+      <Name>FoM</Name>
+      <Messages>
+        <Message Text="Admins online: %adminsonline%" Color="#00CDFF" />
+        <Message Text="Players online: %online%" Color="#00CDFF" />
+        <Message Text="Server uptime: %uptime%" Color="yellow" />
+        <Message Text="TPS: %tps%" Color="yellow" />
+        <Message Text="Hi, I'm feeling Hi... :D" Color="#00CDFF" />
+      </Messages>
+    </Group>
+  </Groups>
+</MOTDConfiguration>

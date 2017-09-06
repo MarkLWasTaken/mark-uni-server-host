@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AccountLimiterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <accMinimumDays>90</accMinimumDays>
+  <accKickPrivateProfiles>true</accKickPrivateProfiles>
+  <accKickVACBannedAccounts>true</accKickVACBannedAccounts>
+  <accKickLimitedAccounts>false</accKickLimitedAccounts>
+  <accNonLimitedOverwrites>false</accNonLimitedOverwrites>
+  <accRejectionReason>AUTH_VERIFICATION</accRejectionReason>
+  <Whitelist>
+    <WhitelistUser Steam64ID="76561198187138313" />
+  </Whitelist>
+  <Timeout>3000</Timeout>
+  <KickOnTimeout>true</KickOnTimeout>
+  <Logging>true</Logging>
+</AccountLimiterConfiguration>

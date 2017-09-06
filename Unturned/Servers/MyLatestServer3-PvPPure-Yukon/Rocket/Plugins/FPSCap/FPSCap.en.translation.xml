@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Translations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Translation Id="invalid_arg" Value="Invalid Arguments." />
+  <Translation Id="tps_set" Value="Server TPS has been set to: {0} TPS." />
+  <Translation Id="ltps_command_help" Value="&lt;TPS&gt; - Limits the server tps/fps to the value set in the command. 0 disables the TPS cap." />
+  <Translation Id="tps_tps" Value="TPS: {0}" />
+  <Translation Id="tps_running_since" Value="Running since: {0} UTC, running for: {1}" />
+</Translations>

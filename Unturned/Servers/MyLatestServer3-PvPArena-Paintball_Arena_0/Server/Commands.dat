@@ -1,0 +1,17 @@
+Name Mark's Unturned PvP Arena Server [Paintball_Arena_0]
+Bindip markleong1997-2.ddns.net
+Port 22224
+Maxplayers 16
+Map Paintball_Arena_0
+Mode Normal
+Perspective Both
+Welcome Welcome to Mark's Unturned PvP Arena Server! Map is Paintball_Arena_0. No Spamming nor Cheating.
+PvP
+Nosync
+Timeout 2000
+Decay 0/0
+Votify Y/300/420/12/65/4
+Hide_Admins
+Log Y/Y/Y/Y
+Admins
+Bans

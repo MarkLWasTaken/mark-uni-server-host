@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RocketPermissions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DefaultGroupId>default</DefaultGroupId>
+  <Groups>
+    <Group>
+      <Id>default</Id>
+      <DisplayName>Guest</DisplayName>
+      <Members />
+      <Commands>
+		<!-- Rocket Commands & Permissions -->
+		<Command>home</Command>
+		<Command>p</Command>
+		<Command>rocket</Command>
+		<!-- Plugin Commands & Permissions -->
+		<Command>afk.check</Command>
+		<Command>ci</Command>
+        <Command>deathmessage</Command>
+        <Command>ghome</Command>
+        <Command>givekit</Command>
+        <Command>jlm.extended</Command>
+        <Command>jlm.group</Command>
+		<Command>kit</Command>
+        <Command>kits</Command>
+		<Command>motd.Default</Command>
+		<Command>p2p.pm</Command>
+		<Command>p2p.qm</Command>
+        <Command>p2p.r</Command>
+		<Command>reward</Command>
+		<Command>stats</Command>
+		<Command>tpa</Command>
+		<Command>tps</Command>
+      </Commands>
+      <ParentGroups />
+    </Group>
+    <Group>
+      <Id>vip</Id>
+      <DisplayName>VIP</DisplayName>
+      <Members>
+        <Member>76561198016438091</Member>
+      </Members>
+      <Commands>
+        <!-- Rocket Commands & Permissions -->
+		<Command>color.FF9900</Command>
+        <!-- Plugin Commands & Permissions -->
+		<Command>motd.Vip</Command>
+      </Commands>
+      <ParentGroups />
+    </Group>
+    <Group>
+      <Id>fom</Id>
+      <DisplayName>Friends of Mark</DisplayName>
+      <Members>
+        <Member>76561197960287930</Member>
+        <Member>76561197993652533</Member>
+        <Member>76561198049921686</Member>
+        <Member>76561198033725749</Member>
+        <Member>76561198046942512</Member>
+        <Member>76561198050727695</Member>
+        <Member>76561198138163640</Member>
+        <Member>76561198175240307</Member>
+        <Member>76561198110999690</Member>
+        <Member>76561198197107175</Member>
+        <Member>76561198144894726</Member>
+        <Member>76561198082042364</Member>
+        <Member>76561198107616598</Member>
+        <Member>76561198233440428</Member>
+        <Member>76561198105506674</Member>
+        <Member>76561198051443749</Member>
+      </Members>
+      <Commands>
+        <!-- Vanilla Commands & Permissions -->
+		<Command>kick</Command>
+        <Command>save</Command>
+        <Command>say</Command>
+		<!-- Plugin Commands & Permissions -->
+        <Command>anti-suicide.imune</Command>
+		<Command>jail</Command>
+        <Command>jail.immune</Command>
+        <Command>limittps</Command>
+        <Command>motd.FoM</Command>
+        <Command>p2p.noblock</Command>
+		<Command>runfeast</Command>
+        <Command>stats.admin</Command>
+      </Commands>
+      <ParentGroups />
+    </Group>
+    <Group>
+      <Id>GMF</Id>
+      <DisplayName>Gold Member Friends</DisplayName>
+      <Members>
+        <Member>76561197993652533</Member>
+        <Member>76561198051443749</Member>
+        <Member>76561198049921686</Member>
+      </Members>
+      <Commands>
+        <!-- Rocket Commands & Permissions -->
+		<Command>color.FFEA00</Command>
+        <!-- Plugin Commands & Permissions -->
+		<Command>anti-suicide.imune</Command>
+        <Command>p2p.noblock</Command>
+      </Commands>
+      <ParentGroups />
+    </Group>
+    <Group>
+      <Id>MarkAdmin</Id>
+      <DisplayName>MarkAdmin</DisplayName>
+      <Members>
+        <Member>76561197993652533</Member>
+      </Members>
+      <Commands>
+        <!-- Vanilla Commands & Permissions -->
+		<Command>ban</Command>
+		<Command>kick</Command>
+        <Command>maxplayers</Command>
+        <Command>password</Command>
+		<Command>slay</Command>
+        <Command>teleport</Command>
+        <!-- Rocket Commands & Permissions -->
+		<Command>god</Command>
+		<Command>tp</Command>
+        <Command>tphere</Command>
+        <!-- Plugin Commands & Permissions -->
+		<Command>afk.set</Command>
+        <Command>anti-suicide.imune</Command>
+        <Command>ci.other</Command>
+		<Command>wreck</Command>
+      </Commands>
+      <ParentGroups />
+    </Group>
+  </Groups>
+</RocketPermissions>

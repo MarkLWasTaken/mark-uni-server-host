@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Translations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Translation Id="afk_general_true" Value="{0} is now afk." />
+  <Translation Id="afk_general_false" Value="{0} is no longer afk." />
+  <Translation Id="afk_general_kick_msg" Value="Kicked for being afk." />
+  <Translation Id="afk_general_kick_chat" Value="{0} is afk and has been kicked." />
+  <Translation Id="afk_general_not_found" Value="Player not found." />
+  <Translation Id="afk_general_invalid_parameter" Value="Invalid parameter." />
+  <Translation Id="afk_set_player" Value="You were set afk by {0}." />
+  <Translation Id="afk_set_caller" Value="You set {0} afk." />
+  <Translation Id="afk_set_caller_error_afk" Value="{0} is already afk." />
+  <Translation Id="afk_set_caller_error_self" Value="You can't set yourself afk." />
+  <Translation Id="afk_set_caller_error_admin" Value="You can't set Admins afk." />
+  <Translation Id="afk_check_caller_true" Value="{0} is afk." />
+  <Translation Id="afk_check_caller_false" Value="{0} is not afk." />
+  <Translation Id="afk_checkall_caller_true" Value="{0} player/s afk: {1}" />
+  <Translation Id="afk_checkall_caller_false" Value="No players are afk." />
+</Translations>

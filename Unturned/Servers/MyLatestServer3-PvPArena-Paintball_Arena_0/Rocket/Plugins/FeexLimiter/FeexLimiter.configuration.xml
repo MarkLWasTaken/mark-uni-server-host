@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeexLimiterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <accMinimumDays>90</accMinimumDays>
+  <accKickPrivateProfiles>false</accKickPrivateProfiles>
+  <accKickVACBannedAccounts>true</accKickVACBannedAccounts>
+  <accKickLimitedAccounts>false</accKickLimitedAccounts>
+  <accNonLimitedOverwrites>true</accNonLimitedOverwrites>
+  <accRejectionReason>AUTH_VERIFICATION</accRejectionReason>
+  <Whitelist>
+    <WhitelistUser Steam64ID="76561198187138313" />
+    <WhitelistUser Steam64ID="76561197993652533" />
+  </Whitelist>
+  <Timeout>15000</Timeout>
+  <KickOnTimeout>true</KickOnTimeout>
+  <Logging>true</Logging>
+</FeexLimiterConfiguration>

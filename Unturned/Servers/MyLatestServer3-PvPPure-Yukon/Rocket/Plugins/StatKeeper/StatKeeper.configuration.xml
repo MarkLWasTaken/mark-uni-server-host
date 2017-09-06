@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DatabaseAddress>localhost</DatabaseAddress>
+  <DatabaseUsername>markleong1997</DatabaseUsername>
+  <DatabasePassword>nicksbabe143</DatabasePassword>
+  <DatabaseName>MySQL</DatabaseName>
+  <DatabasePort>3306</DatabasePort>
+  <AdminView>true</AdminView>
+  <killMilestone1>0</killMilestone1>
+  <xpReward1>0</xpReward1>
+  <itemReward1>0</itemReward1>
+  <itemRewardAmount1>0</itemRewardAmount1>
+  <killMilestone2>0</killMilestone2>
+  <xpReward2>0</xpReward2>
+  <itemReward2>0</itemReward2>
+  <itemRewardAmount2>0</itemRewardAmount2>
+  <killMilestone3>0</killMilestone3>
+  <xpReward3>0</xpReward3>
+  <itemReward3>0</itemReward3>
+  <itemRewardAmount3>0</itemRewardAmount3>
+  <killMilestone4>0</killMilestone4>
+  <xpReward4>0</xpReward4>
+  <itemReward4>0</itemReward4>
+  <itemRewardAmount4>0</itemRewardAmount4>
+  <killMilestone5>0</killMilestone5>
+  <xpReward5>0</xpReward5>
+  <itemReward5>0</itemReward5>
+  <itemRewardAmount5>0</itemRewardAmount5>
+</Configuration>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EasyAFKConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <afkSeconds>180</afkSeconds>
+  <afkCheckAdmins>true</afkCheckAdmins>
+  <afkKick>false</afkKick>
+  <afkKickAdmins>false</afkKickAdmins>
+  <afkKickMinPlayers>0</afkKickMinPlayers>
+  <afkCheckInterval>1000</afkCheckInterval>
+</EasyAFKConfiguration>

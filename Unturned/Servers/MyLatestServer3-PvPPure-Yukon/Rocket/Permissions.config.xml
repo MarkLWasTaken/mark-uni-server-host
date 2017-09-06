@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RocketPermissions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DefaultGroup>default</DefaultGroup>
+  <Groups>
+    <Group>
+      <Id>default</Id>
+      <DisplayName>Guest</DisplayName>
+      <Color>white</Color>
+      <Members />
+      <Permissions>
+		<!-- Rocket Commands & Permissions -->
+		<Permission>p</Permission>
+		<Permission>rocket</Permission>
+		<!-- Plugin Commands & Permissions -->
+		<Permission>afk.check</Permission>
+		<Permission Cooldown="1200">ci</Permission>
+		<Permission>deathmessage</Permission>
+		<Permission>givekit</Permission>
+		<Permission>jlm.group</Permission>
+		<Permission>kit</Permission>
+        <Permission>kits</Permission>
+		<Permission>motd.Default</Permission>
+		<Permission>p2p.pm</Permission>
+        <Permission>p2p.qm</Permission>
+        <Permission>p2p.r</Permission>
+        <Permission>pm</Permission>
+		<Permission>qm</Permission>
+        <Permission>r</Permission>
+		<Permission>reward</Permission>
+		<Permission>stats</Permission>
+        <Permission>tpa</Permission>
+        <Permission>tps</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>mmember</Id>
+      <DisplayName>MMember</DisplayName>
+      <Color>white</Color>
+      <Members>
+        <Member>76561198016438091</Member>
+        <Member>76561198079792199</Member>
+        <Member>76561198144896281</Member>
+        <Member>76561198111965778</Member>
+        <Member>76561198046616031</Member>
+        <Member>76561198136347317</Member>
+        <Member>76561198052721508</Member>
+      </Members>
+      <Permissions>
+        <!-- Plugin Commands & Permissions -->
+		<Permission>motd.MMember</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>vip</Id>
+      <DisplayName>VIP</DisplayName>
+      <Color>white</Color>
+      <Members>
+        <Member>76561198016438091</Member>
+      </Members>
+      <ParentGroup>default</ParentGroup>
+      <Permissions>
+        <!-- Rocket Commands & Permissions -->
+		<Permission>color.FF9900</Permission>
+		<!-- Plugin Commands & Permissions -->
+        <Permission>motd.Vip</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>fom</Id>
+      <DisplayName>Friends of Mark</DisplayName>
+      <Color>white</Color>
+      <Members>
+        <Member>76561197960287930</Member>
+        <Member>76561197993652533</Member>
+        <Member>76561198049921686</Member>
+        <Member>76561198033725749</Member>
+        <Member>76561198046942512</Member>
+        <Member>76561198050727695</Member>
+        <Member>76561198138163640</Member>
+        <Member>76561198175240307</Member>
+        <Member>76561198110999690</Member>
+        <Member>76561198197107175</Member>
+        <Member>76561198144894726</Member>
+        <Member>76561198082042364</Member>
+        <Member>76561198107616598</Member>
+        <Member>76561198233440428</Member>
+        <Member>76561198105506674</Member>
+        <Member>76561198051443749</Member>
+        <Member>76561198050727695</Member>
+      </Members>
+      <ParentGroup>default</ParentGroup>
+      <Permissions>
+        <!-- Vanilla Commands & Permissions -->
+		<Permission Cooldown="10">kick</Permission>
+        <Permission>save</Permission>
+        <Permission>say</Permission>
+		<Permission>storm</Permission>
+		<!-- Plugin Commands & Permissions -->
+		<Permission>anti-suicide.imune</Permission>
+		<Permission>jail</Permission>
+        <Permission>jail.immune</Permission>
+		<Permission>limittps</Permission>
+		<Permission>motd.FoM</Permission>
+		<Permission>p2p.noblock</Permission>
+		<Permission Cooldown="10">runfeast</Permission>
+        <Permission>stats.admin</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>GMF</Id>
+      <DisplayName>Gold Member Friends</DisplayName>
+      <Color>white</Color>
+      <Members>
+        <Member>76561197993652533</Member>
+        <Member>76561198051443749</Member>
+        <Member>76561198049921686</Member>
+      </Members>
+      <ParentGroup>default</ParentGroup>
+      <Permissions>
+		<!-- Rocket Commands & Permissions -->
+        <Permission>color.FFEA00</Permission>
+		<!-- Plugin Commands & Permissions -->
+        <Permission>anti-suicide.imune</Permission>
+        <Permission>p2p.noblock</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>MarkAdmin</Id>
+      <DisplayName>MarkAdmin</DisplayName>
+      <Color>white</Color>
+      <Members>
+        <Member>76561197993652533</Member>
+      </Members>
+      <ParentGroup>default</ParentGroup>
+      <Permissions>
+        <!-- Vanilla Commands & Permissions -->
+		<Permission>admin</Permission>
+        <Permission>ban</Permission>
+        <Permission>give</Permission>
+		<Permission>kick</Permission>
+        <Permission>maxplayers</Permission>
+        <Permission>password</Permission>
+        <Permission>slay</Permission>
+        <Permission>teleport</Permission>
+		<Permission>unadmin</Permission>
+		<!-- Rocket Commands & Permissions -->
+		<Permission>god</Permission>
+		<Permission>home</Permission>
+        <Permission>i</Permission>
+		<Permission>tp</Permission>
+        <Permission>tphere</Permission>
+        <Permission>vanish</Permission>
+        <!-- Plugin Commands & Permissions -->
+        <Permission>afk.set</Permission>
+        <Permission>anti-suicide.imune</Permission>
+        <Permission>ci.other</Permission>
+        <Permission>wreck</Permission>
+      </Permissions>
+    </Group>
+  </Groups>
+</RocketPermissions>

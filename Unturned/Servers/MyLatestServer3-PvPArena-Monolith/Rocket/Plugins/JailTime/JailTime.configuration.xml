@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<JailTimeConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BanOnReconnect>false</BanOnReconnect>
+  <BanOnReconnectTime>0</BanOnReconnectTime>
+  <JailTimeInSeconds>600</JailTimeInSeconds>
+  <KillInsteadOfTeleport>false</KillInsteadOfTeleport>
+  <WalkDistance>5</WalkDistance>
+  <Enabled>true</Enabled>
+  <GracePeriod>3</GracePeriod>
+  <StripInventory>false</StripInventory>
+  <GiveClothes>false</GiveClothes>
+  <ReleasePlayerOnUnload>false</ReleasePlayerOnUnload>
+  <Cells>
+    <Cell name="O'Leary 1" x="-240.5706" y="34.50486" z="16.71745" />
+    <Cell name="O'Leary 2" x="-243.9697" y="39.25486" z="-0.4241685" />
+    <Cell name="Charlotte" x="71.9969" y="33.77744" z="-486.8339" />
+    <Cell name="Stratford" x="-13.20535" y="38.89639" z="665.5002" />
+  </Cells>
+</JailTimeConfiguration>
