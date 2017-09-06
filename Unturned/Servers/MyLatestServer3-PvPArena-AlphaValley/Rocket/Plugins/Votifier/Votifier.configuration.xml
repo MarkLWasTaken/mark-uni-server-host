@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VotifierConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Services>
+    <Service name="unturned-servers.net" apikey="d6hlj3d6afi6k1434zv8nojn21qkzx3w36s" />
+    <Service name="unturnedsl.com" apikey="11022" />
+  </Services>
+  <EnableRewardBundles>true</EnableRewardBundles>
+  <RewardBundles>
+    <RewardBundle>
+      <Probability>33</Probability>
+      <Name>Survival</Name>
+      <Rewards>
+        <Reward itemid="245" amount="1" />
+        <Reward itemid="81" amount="2" />
+        <Reward itemid="16" amount="1" />
+      </Rewards>
+    </RewardBundle>
+    <RewardBundle>
+      <Probability>33</Probability>
+      <Name>Brute Force</Name>
+      <Rewards>
+        <Reward itemid="112" amount="1" />
+        <Reward itemid="113" amount="3" />
+        <Reward itemid="254" amount="3" />
+      </Rewards>
+    </RewardBundle>
+    <RewardBundle>
+      <Probability>33</Probability>
+      <Name>Watcher</Name>
+      <Rewards>
+        <Reward itemid="109" amount="1" />
+        <Reward itemid="111" amount="3" />
+        <Reward itemid="236" amount="1" />
+      </Rewards>
+    </RewardBundle>
+    <RewardBundle>
+      <Probability>18</Probability>
+      <Name>Marksman</Name>
+      <Rewards>
+        <Reward itemid="116" amount="1" />
+        <Reward itemid="6" amount="2" />
+        <Reward itemid="118" amount="1" />
+      </Rewards>
+    </RewardBundle>
+    <RewardBundle>
+      <Probability>3</Probability>
+      <Name>Hitman</Name>
+      <Rewards>
+        <Reward itemid="6052" amount="1" />
+        <Reward itemid="6053" amount="2" />
+        <Reward itemid="6054" amount="1" />
+        <Reward itemid="6055" amount="1" />
+        <Reward itemid="6087" amount="1" />
+      </Rewards>
+    </RewardBundle>
+    <RewardBundle>
+      <Probability>15</Probability>
+      <Name>True Marksman</Name>
+      <Rewards>
+        <Reward itemid="4" amount="1" />
+        <Reward itemid="6" amount="2" />
+        <Reward itemid="17" amount="1" />
+      </Rewards>
+    </RewardBundle>
+    <RewardBundle>
+      <Probability>13</Probability>
+      <Name>Maplecloner-1</Name>
+      <Rewards>
+        <Reward itemid="6034" amount="1" />
+        <Reward itemid="6035" amount="2" />
+        <Reward itemid="6037" amount="1" />
+        <Reward itemid="6038" amount="1" />
+      </Rewards>
+    </RewardBundle>
+    <RewardBundle>
+      <Probability>4</Probability>
+      <Name>Sn1pE-1 (Urban)</Name>
+      <Rewards>
+        <Reward itemid="6063" amount="1" />
+        <Reward itemid="6064" amount="1" />
+        <Reward itemid="403" amount="1" />
+      </Rewards>
+    </RewardBundle>
+    <RewardBundle>
+      <Probability>4</Probability>
+      <Name>Sn1pE-1 (Forest)</Name>
+      <Rewards>
+        <Reward itemid="6068" amount="1" />
+        <Reward itemid="6069" amount="1" />
+        <Reward itemid="403" amount="1" />
+      </Rewards>
+    </RewardBundle>
+    <RewardBundle>
+      <Probability>6</Probability>
+      <Name>Doorknob Rambo LMG - Eat Lead!</Name>
+      <Rewards>
+        <Reward itemid="6057" amount="1" />
+        <Reward itemid="6058" amount="1" />
+      </Rewards>
+    </RewardBundle>
+    <RewardBundle>
+      <Probability>5</Probability>
+      <Name>Doorknob Rambo BP - Eat Lead!</Name>
+      <Rewards>
+        <Reward itemid="6061" amount="1" />
+        <Reward itemid="6058" amount="1" />
+        <Reward itemid="6060" amount="1" />
+      </Rewards>
+    </RewardBundle>
+  </RewardBundles>
+  <ServiceDefinitions>
+    <ServiceDefinition name="unturned-servers.net">
+      <CheckHasVoted>http://unturned-servers.net/api/?object=votes&amp;element=claim&amp;key={0}&amp;steamid={1}</CheckHasVoted>
+      <ReportSuccess>http://unturned-servers.net/api/?action=post&amp;object=votes&amp;element=claim&amp;key={0}&amp;steamid={1}</ReportSuccess>
+    </ServiceDefinition>
+    <ServiceDefinition name="unturnedsl.com">
+      <CheckHasVoted>http://unturnedsl.com/api/dedicated/{0}/{1}</CheckHasVoted>
+      <ReportSuccess>http://unturnedsl.com/api/dedicated/post/{0}/{1}</ReportSuccess>
+    </ServiceDefinition>
+  </ServiceDefinitions>
+</VotifierConfiguration>

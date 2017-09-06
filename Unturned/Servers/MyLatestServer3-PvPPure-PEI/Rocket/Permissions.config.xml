@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RocketPermissions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DefaultGroup>default</DefaultGroup>
+  <Groups>
+    <Group>
+      <Id>default</Id>
+      <DisplayName>Guest</DisplayName>
+	  <Prefix />
+      <Suffix />
+      <Color />
+	  <ParentGroup />
+      <Members />
+      <Permissions>
+		<!-- Vanilla Commands & Permissions -->
+		<!--<Permission Cooldown="3">give</Permission> -->
+        <!--<Permission Cooldown="10">vehicle</Permission> -->
+		<!--Rocket Commands & Permissions -->
+		<!--<Permission Cooldown="3">i</Permission> -->
+		<Permission Cooldown="0">p</Permission>
+		<Permission Cooldown="0">rocket</Permission>
+		<!--<Permission Cooldown="10">v</Permission> -->
+		<!-- Plugin Commands & Permissions -->
+		<Permission Cooldown="0">afk.check</Permission>
+		<!-- <Permission Cooldown="1200">ci</Permission> -->
+		<Permission Cooldown="0">deathmessage</Permission>
+		<Permission Cooldown="0">givekit</Permission>
+		<Permission Cooldown="0">jlm.group</Permission>
+		<Permission Cooldown="0">kit</Permission>
+        <Permission Cooldown="0">kits</Permission>
+		<Permission Cooldown="0">motd.Default</Permission>
+        <Permission Cooldown="0">p2p.pm</Permission>
+        <Permission Cooldown="0">p2p.qm</Permission>
+        <Permission Cooldown="0">p2p.r</Permission>
+        <Permission Cooldown="0">pm</Permission>
+        <Permission Cooldown="0">qm</Permission>
+        <Permission Cooldown="0">r</Permission>
+		<Permission Cooldown="0">reward</Permission>
+		<Permission Cooldown="0">stats</Permission>
+		<Permission Cooldown="0">tpa</Permission>
+		<Permission Cooldown="0">tpa.accept</Permission>
+        <Permission Cooldown="0">tpa.send</Permission>
+        <Permission Cooldown="0">tps</Permission>
+		<Permission Cooldown="0">whisper.message</Permission>
+        <Permission Cooldown="0">whisper.reply</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>mmember</Id>
+      <DisplayName>MMember</DisplayName>
+      <Color>white</Color>
+      <Members>
+        <Member>76561198016438091</Member>
+        <Member>76561198079792199</Member>
+        <Member>76561198144896281</Member>
+        <Member>76561198111965778</Member>
+        <Member>76561198046616031</Member>
+        <Member>76561198136347317</Member>
+        <Member>76561198052721508</Member>
+      </Members>
+      <Permissions>
+		<!-- Plugin Commands & Permissions -->
+        <Permission Cooldown="0">motd.MMember</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>vip</Id>
+      <DisplayName>VIP</DisplayName>
+      <Color>white</Color>
+      <Members>
+        <Member>76561198016438091</Member>
+      </Members>
+      <ParentGroup>default</ParentGroup>
+      <Permissions>
+        <!-- Rocket Commands & Permissions -->
+		<Permission Cooldown="0">color.FF9900</Permission>
+		<!-- Plugin Commands & Permissions -->
+        <Permission Cooldown="0">motd.Vip</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>fom</Id>
+      <DisplayName>Friends of Mark</DisplayName>
+      <Color>white</Color>
+      <Members>
+        <Member>76561197960287930</Member>
+        <Member>76561197993652533</Member>
+        <Member>76561198049921686</Member>
+        <Member>76561198033725749</Member>
+        <Member>76561198046942512</Member>
+        <Member>76561198050727695</Member>
+        <Member>76561198138163640</Member>
+        <Member>76561198175240307</Member>
+        <Member>76561198110999690</Member>
+        <Member>76561198197107175</Member>
+        <Member>76561198144894726</Member>
+        <Member>76561198082042364</Member>
+        <Member>76561198107616598</Member>
+        <Member>76561198233440428</Member>
+        <Member>76561198105506674</Member>
+        <Member>76561198051443749</Member>
+        <Member>76561198050727695</Member>
+      </Members>
+      <ParentGroup>default</ParentGroup>
+      <Permissions>
+        <!-- Vanilla Commands & Permissions -->
+		<Permission Cooldown="10">kick</Permission>
+        <Permission Cooldown="0">save</Permission>
+        <Permission Cooldown="0">say</Permission>
+		<Permission Cooldown="0">storm</Permission>
+		<!-- Plugin Commands & Permissions -->
+		<Permission Cooldown="0">anti-suicide.imune</Permission>
+        <Permission Cooldown="0">jail</Permission>
+        <Permission Cooldown="0">jail.immune</Permission>
+        <Permission Cooldown="0">limittps</Permission>
+        <Permission Cooldown="0">motd.FoM</Permission>
+        <Permission Cooldown="0">p2p.noblock</Permission>
+		<Permission Cooldown="10">runfeast</Permission>
+        <Permission Cooldown="0">stats.admin</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>GMF</Id>
+      <DisplayName>Gold Member Friends</DisplayName>
+      <Color>white</Color>
+      <Members>
+        <Member>76561197993652533</Member>
+        <Member>76561198051443749</Member>
+        <Member>76561198049921686</Member>
+      </Members>
+      <ParentGroup>default</ParentGroup>
+      <Permissions>
+        <!-- Rocket Commands & Permissions -->
+		<Permission Cooldown="0">color.FFEA00</Permission>
+		<!-- Plugin Commands & Permissions -->
+        <Permission Cooldown="0">anti-suicide.imune</Permission>
+        <Permission Cooldown="0">p2p.noblock</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>MarkAdmin</Id>
+      <DisplayName>MarkAdmin</DisplayName>
+      <Color>white</Color>
+      <Members>
+        <Member>76561197993652533</Member>
+      </Members>
+      <ParentGroup>default</ParentGroup>
+      <Permissions>
+		<!-- Vanilla Commands & Permissions -->
+		<Permission Cooldown="0">admin</Permission>
+		<Permission Cooldown="0">ban</Permission>
+		<Permission Cooldown="0">experience</Permission>
+		<Permission Cooldown="0">give</Permission>
+		<Permission Cooldown="0">kick</Permission>
+		<Permission Cooldown="0">maxplayers</Permission>
+		<Permission Cooldown="0">password</Permission>
+		<Permission Cooldown="0">slay</Permission>
+		<Permission Cooldown="0">teleport</Permission>
+        <Permission Cooldown="0">unadmin</Permission>
+		<!-- Rocket Commands & Permissions -->
+		<Permission Cooldown="0">god</Permission>
+		<Permission Cooldown="0">home</Permission>
+        <Permission Cooldown="0">i</Permission>
+		<Permission Cooldown="0">tp</Permission>
+        <Permission Cooldown="0">tphere</Permission>
+        <Permission Cooldown="0">vanish</Permission>
+		<!-- Plugin Commands & Permissions -->
+		<Permission Cooldown="0">afk.set</Permission>
+        <Permission Cooldown="0">anti-suicide.imune</Permission>
+        <Permission Cooldown="0">ci.other</Permission>
+        <Permission Cooldown="0">wreck</Permission>
+
+      </Permissions>
+    </Group>
+  </Groups>
+</RocketPermissions>

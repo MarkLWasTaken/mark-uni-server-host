@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Translations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Translation Id="general_not_found" Value="Player not found." />
+  <Translation Id="general_invalid_parameter" Value="Invalid parameter." />
+  <Translation Id="report" Value="Thank you for your report." />
+  <Translation Id="report_pending" Value="There is already a report pending, please wait." />
+</Translations>

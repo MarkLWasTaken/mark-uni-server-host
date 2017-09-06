@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MessageAnnouncerConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Interval>360</Interval>
+  <Messages>
+    <Message Text="If you have any questions, ask an admin on our Steam Group." Color="Yellow" />
+    <Message Text="Welcome to Mark's Unturned Vanilla PvP Server, we hope you enjoy your stay!" Color="Yellow" />
+    <Message Text="Please chat in English or any other Asian language. Also, be polite." Color="Yellow" />
+    <Message Text="You're now playing on Vanilla PvP server. Visit our Steam Group for more info!" Color="Yellow" />
+    <Message Text="Visit our Steam Group at steamcommunity.com/groups/markleong1997unturned" Color="Yellow" />
+    <Message Text="If you have any questions, ask an admin on our Steam Group." Color="Yellow" />
+    <Message Text="DYK? You can view your statistics with /stats (pvp/pve)" Color="Yellow" />
+  </Messages>
+  <TextCommands>
+    <TextCommand>
+      <Name>tpa</Name>
+      <Help>Test1</Help>
+      <Text>
+        <Line>Oops, sorry! TPA command is disabled in this server.</Line>
+      </Text>
+    </TextCommand>
+    <TextCommand>
+      <Name>kit</Name>
+      <Help>Test3</Help>
+      <Text>
+        <Line>Oops, sorry! Kit command is disabled in this server.</Line>
+      </Text>
+    </TextCommand>
+    <TextCommand>
+      <Name>kits</Name>
+      <Help>Test4</Help>
+      <Text>
+        <Line>Oops, sorry! Kits command is disabled in this server.</Line>
+      </Text>
+    </TextCommand>
+    <TextCommand>
+      <Name>givekit</Name>
+      <Help>Test5</Help>
+      <Text>
+        <Line>Oops, sorry! GiveKit command is disabled in this server.</Line>
+      </Text>
+    </TextCommand>
+    <TextCommand>
+      <Name>home</Name>
+      <Help>Test6</Help>
+      <Text>
+        <Line>Oops, sorry! Home command is disabled in this server.</Line>
+      </Text>
+    </TextCommand>
+  </TextCommands>
+</MessageAnnouncerConfiguration>
