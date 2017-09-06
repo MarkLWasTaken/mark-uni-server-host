@@ -10,3 +10,4 @@ Any changes made will be saved. If any errors do occur, it will be rolled back t
 - Unturned
 - Starbound
 - Minecraft
+- Terraria
