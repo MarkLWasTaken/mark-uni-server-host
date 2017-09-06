@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NameKickerConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UseRegex>true</UseRegex>
+  <AdminsCanBypass>true</AdminsCanBypass>
+  <BanPlayerInsteadOfKick>false</BanPlayerInsteadOfKick>
+  <BanDuration>86400</BanDuration>
+  <BlockedNames>
+    <string>\b(a+(\W|\d|_)*d+(\W|\d|_)*m+(\W|\d|_)*i+(\W|\d|_)*n+(\W|\d|_)*)\b</string>
+  </BlockedNames>
+</NameKickerConfig>

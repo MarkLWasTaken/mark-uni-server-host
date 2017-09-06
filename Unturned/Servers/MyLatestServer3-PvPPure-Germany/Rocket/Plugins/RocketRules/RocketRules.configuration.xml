@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RocketRulesConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DisplayOnConnect>false</DisplayOnConnect>
+  <Rules>
+    <Rule>
+      <configText>Example Rule 1</configText>
+      <configColor>FFFF00</configColor>
+    </Rule>
+    <Rule>
+      <configText>Example Rule 2</configText>
+      <configColor>00FF00</configColor>
+    </Rule>
+    <Rule>
+      <configText>Example Rule 3</configText>
+      <configColor>FF0000</configColor>
+    </Rule>
+    <Rule>
+      <configText>Example Rule 4</configText>
+      <configColor>0000FF</configColor>
+    </Rule>
+  </Rules>
+</RocketRulesConfiguration>
