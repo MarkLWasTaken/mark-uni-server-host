@@ -1,8 +1,8 @@
 {
   "Browser": {
-    "Icon": "",
-    "Desc_Hint": "",
-    "Desc_Full": ""
+    "Icon": "http://markleong1997-2.esy.es/unturned/c862c8da0f58cf8f7c4d58ec91ad88f089915054_full.jpg",
+    "Desc_Hint": "You have to fight for life in order to survive.",
+    "Desc_Full": "Welcome to Mark's Unturned Pure PvP Server!<br> This server is currently running on the Germany map.<br> Normal difficulty with minor changes.<br> This server usually shuts down everyday between 10:00 PM to 12:00 AM, so be sure to stay away from the zombies navigation area to be secure for disconnection.<br><br><br>If you have any problems connecting to the server, connecting via IP as markleong1997[dot]ddns[dot]net. And port as 22220.<br><br>Despawn_Dropped_Time has been set to 1800 seconds (30 minutes), as a compensation for players constant deaths and disconnection from the server. I apologize for any inconvenience caused by the unreliable server connections."
   },
   "Server": {
     "VAC_Secure": true,
@@ -142,7 +142,7 @@
   "Normal": {
     "Items": {
       "Spawn_Chance": 0.35,
-      "Despawn_Dropped_Time": 1200.0,
+      "Despawn_Dropped_Time": 1800.0,
       "Despawn_Natural_Time": 900.0,
       "Respawn_Time": 45.0,
       "Quality_Full_Chance": 0.1,
