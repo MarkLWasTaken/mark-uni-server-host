@@ -1,5 +1,5 @@
 {
-  "Enabled": false,
+  "Enabled": true,
   "ServerSideCharacterSave": 5,
   "LogonDiscardThreshold": 250,
   "StartingHealth": 100,

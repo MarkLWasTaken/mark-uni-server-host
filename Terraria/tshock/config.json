@@ -18,7 +18,7 @@
   ],
   "SuperAdminChatPrefix": "[Admin] ",
   "SuperAdminChatSuffix": "",
-  "BackupInterval": 0,
+  "BackupInterval": 10,
   "BackupKeepFor": 60,
   "RememberLeavePos": false,
   "HardcoreOnly": false,
