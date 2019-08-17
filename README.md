@@ -5,7 +5,7 @@ Any changes made will be saved. If any errors do occur, it will be rolled back t
 
 
 
-## What servers are currently being hosted?
+## What are the servers  that you have hosted?
 
 - Garry's Mod (to be added)
 - Minecraft (to be added)
