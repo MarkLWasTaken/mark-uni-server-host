@@ -7,8 +7,14 @@ Any changes made will be saved. If any errors do occur, it will be rolled back t
 
 ## What are the servers  that you have hosted?
 
-- Garry's Mod (to be added)
-- Minecraft (to be added)
+- Don't Starve Together
+- Garry's Mod
+- Minecraft Bedrock Edition (Android/iOS)
+- Minecraft Java Edition
+- Project Zomboid
+- Rust
 - Starbound
+- Stardew Valley
+- Sven Co-op
 - Terraria
 - Unturned
